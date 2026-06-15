@@ -1,5 +1,0 @@
-packages
-
-```
- npm i eslint @eslint/js prettier eslint-config-prettier eslint-plugin-prettier -D
-```
