@@ -1,4 +1,4 @@
-packages
+2packages
 
 ```
  npm i eslint @eslint/js prettier eslint-config-prettier eslint-plugin-prettier -D
@@ -74,4 +74,10 @@ bcrypt - bcrypt is a library used to help you hash passwords. It uses a salt-to-
 
 ```
 npm i bcrypt
+```
+**********
+
+installing arcjet
+```
+npm i @arcjet/node @arcjet/inspect
 ```
