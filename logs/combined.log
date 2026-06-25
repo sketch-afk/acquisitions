@@ -251,3 +251,70 @@
 {"level":"info","message":"::1 - - [25/Jun/2026:17:44:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:44:16.080Z"}
 {"ip":"::ffff:172.20.0.1","level":"warn","message":"Bot request blocked","path":"/api/auth/sign-in","service":"acquisitions-api","timestamp":"2026-06-25T17:44:19.284Z","userAgent":"PostmanRuntime/7.51.1"}
 {"level":"info","message":"::ffff:172.20.0.1 - - [25/Jun/2026:17:44:19 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api","timestamp":"2026-06-25T17:44:19.285Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:45:59 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:45:59.368Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [25/Jun/2026:17:46:25 +0000] \"GET /api/users HTTP/1.1\" 401 72 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-06-25T17:46:25.974Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:46:29 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:46:29.667Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:46:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:46:59.978Z"}
+{"level":"info","message":"User signed in successfully: yashrg@gamil.com","service":"acquisitions-api","timestamp":"2026-06-25T17:47:02.801Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [25/Jun/2026:17:47:02 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 103 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api","timestamp":"2026-06-25T17:47:02.803Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:47:30 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:47:30.270Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:48:00 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:48:00.573Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:48:30 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:48:30.889Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:49:01 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:49:01.214Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:49:31 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:49:31.531Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:50:01 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:50:01.812Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:50:32 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:50:32.125Z"}
+{"level":"info","message":"User authenticated: yashrg@gamil.com (user)","service":"acquisitions-api","timestamp":"2026-06-25T17:50:45.564Z"}
+{"level":"info","message":"Getting user by id: 2","service":"acquisitions-api","timestamp":"2026-06-25T17:50:45.565Z"}
+{"level":"info","message":"User rajgpyash@gmail.com retrieved successfully","service":"acquisitions-api","timestamp":"2026-06-25T17:50:45.760Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [25/Jun/2026:17:50:45 +0000] \"GET /api/users/2 HTTP/1.1\" 200 199 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api","timestamp":"2026-06-25T17:50:45.762Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:51:02 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:51:02.420Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:51:32 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:51:32.743Z"}
+{"level":"info","message":"User authenticated: yashrg@gamil.com (user)","service":"acquisitions-api","timestamp":"2026-06-25T17:51:40.588Z"}
+{"level":"warn","message":"Access denied for user yashrg@gamil.com with role user. Required: admin","service":"acquisitions-api","timestamp":"2026-06-25T17:51:40.588Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [25/Jun/2026:17:51:40 +0000] \"DELETE /api/users/2 HTTP/1.1\" 403 62 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api","timestamp":"2026-06-25T17:51:40.589Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:52:03 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:52:03.050Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:52:33 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:52:33.364Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:53:03 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:53:03.773Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:53:34 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:53:34.105Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:54:04 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:54:04.395Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:54:34 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:54:34.701Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:55:05 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:55:05.009Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:55:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:55:35.292Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:56:05 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:56:05.604Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:56:35 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:56:35.909Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:57:06 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:57:06.207Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:57:36 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:57:36.504Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:58:06 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:58:06.827Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:58:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:58:37.107Z"}
+{"level":"info","message":"User authenticated: yashrg@gamil.com (user)","service":"acquisitions-api","timestamp":"2026-06-25T17:58:58.458Z"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api","timestamp":"2026-06-25T17:58:58.458Z"}
+{"level":"info","message":"Fetched 3 users","service":"acquisitions-api","timestamp":"2026-06-25T17:58:59.398Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [25/Jun/2026:17:58:59 +0000] \"GET /api/users HTTP/1.1\" 200 502 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api","timestamp":"2026-06-25T17:58:59.399Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:59:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:59:07.448Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:17:59:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T17:59:37.772Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:00:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:00:08.075Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:00:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:00:38.391Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:01:08 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:01:08.700Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:01:39 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:01:39.005Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:02:09 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:02:09.311Z"}
+{"level":"info","message":"User admin@gamil.com created successfully","service":"acquisitions-api","timestamp":"2026-06-25T18:02:30.657Z"}
+{"level":"info","message":"User registered successfully: admin@gamil.com","service":"acquisitions-api","timestamp":"2026-06-25T18:02:30.660Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [25/Jun/2026:18:02:30 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 105 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api","timestamp":"2026-06-25T18:02:30.661Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:02:39 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:02:39.639Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:03:09 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:03:09.946Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:03:40 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:03:40.242Z"}
+{"level":"info","message":"User authenticated: admin@gamil.com (admin)","service":"acquisitions-api","timestamp":"2026-06-25T18:04:00.919Z"}
+{"level":"info","message":"Deleting user: 1","service":"acquisitions-api","timestamp":"2026-06-25T18:04:00.920Z"}
+{"level":"info","message":"User yashraj@gmail.com deleted successfully","service":"acquisitions-api","timestamp":"2026-06-25T18:04:01.172Z"}
+{"level":"info","message":"User yashraj@gmail.com deleted successfully","service":"acquisitions-api","timestamp":"2026-06-25T18:04:01.173Z"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [25/Jun/2026:18:04:01 +0000] \"DELETE /api/users/1 HTTP/1.1\" 200 111 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api","timestamp":"2026-06-25T18:04:01.173Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:04:10 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:04:10.548Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:04:40 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:04:40.857Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:05:11 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:05:11.178Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:05:41 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:05:41.485Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:06:11 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:06:11.802Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:06:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:06:42.091Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:07:12 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:07:12.398Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:07:42 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:07:42.809Z"}
+{"level":"info","message":"::1 - - [25/Jun/2026:18:08:13 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api","timestamp":"2026-06-25T18:08:13.102Z"}
