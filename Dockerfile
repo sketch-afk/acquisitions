@@ -10,7 +10,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm ci --only=production && npm cache clean --force
+RUN npm install --omit=dev && npm cache clean --force
 
 # Copy source code
 COPY . .
@@ -33,7 +33,7 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
 # Development stage
 FROM base AS development
 USER root
-RUN npm ci && npm cache clean --force
+RUN npm install && npm cache clean --force
 USER nodejs
 CMD ["npm", "run", "dev"]
 
