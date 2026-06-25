@@ -35,7 +35,7 @@ app.get('/health', (req, res) => {
   res.status(200).json({
     status: 'OK',
     timestamp: new Date().toISOString(),
-    uptime: process.uptime(),  
+    uptime: process.uptime(),
   });
 });
 
@@ -49,6 +49,5 @@ app.use('/api/users', usersRoutes);
 app.use((req, res) => {
   res.status(404).json({ error: 'Route Not Found' });
 });
-
 
 export default app;

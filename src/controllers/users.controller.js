@@ -11,15 +11,15 @@ import {
   updateUserSchema,
 } from '#validations/users.validation.js';
 
-export const fetchAllUsers = async (req, res, next) => { 
+export const fetchAllUsers = async (req, res, next) => {
   try {
     logger.info('Getting users...');
 
     const allUsers = await getAllUsers();
 
     logger.info(`Fetched ${allUsers.length} users`);
-    
-    res.json({ 
+
+    res.json({
       message: 'Successfully retrieved users',
       users: allUsers,
       count: allUsers.length,
