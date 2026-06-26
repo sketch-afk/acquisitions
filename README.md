@@ -38,6 +38,7 @@ cp .env.example .env.development
 ```
 
 Required variables (see `.env.example`):
+
 - `PORT` (default 3000)
 - `DATABASE_URL` (Neon PostgreSQL connection string)
 - `JWT_SECRET` (For signing tokens)
@@ -93,6 +94,7 @@ The application follows a layered request-handling structure:
 ### Import Aliases
 
 The project uses native Node.js subpath imports defined in `package.json`. Use these aliases instead of relative paths:
+
 - `#config/*` → `src/config/*`
 - `#controllers/*` → `src/controllers/*`
 - `#middleware/*` → `src/middleware/*`
@@ -105,6 +107,7 @@ The project uses native Node.js subpath imports defined in `package.json`. Use t
 ## 🧪 Testing & CI/CD Workflows
 
 ### Code Quality & Local Testing
+
 The project uses ESLint and Prettier for code quality, and Jest for experimental ES Modules testing.
 
 ```bash
@@ -132,5 +135,6 @@ Automated CI/CD pipelines are managed via GitHub Actions:
 ## 🤖 AI Assistant Guidelines
 
 If you are using an AI coding assistant (like Cursor, WARP, or GitHub Copilot), please refer to the following guidelines included in the repository:
+
 - [WARP.md](./WARP.md) - General guidance and architecture overview for AI agents.
 - [AGENTS.md](./AGENTS.md) - Specific rules, technology stack details, and coding conventions.
